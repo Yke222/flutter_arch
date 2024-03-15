@@ -1,0 +1,22 @@
+include: package:very_good_analysis/analysis_options.5.1.0.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+analyzer:
+  errors:
+    inference_failure_on_function_return_type: false
+    use_if_null_to_convert_nulls_to_bools: false
+    use_decorated_box: false
+  exclude:
+    - "**.g.dart"
+    - "**/test/**"
+    - "**.freezed.dart"
+    - "**.chopper.dart"
+    - "**.generated.dart"
+    - ".dart_tool/**"
+    - ".packages"
+    - "build/**"
+    - "pubspec.lock"
+    - ".flutter-plugins"
+    - ".flutter-plugins-dependencies"
+    - "**.config.dart"
