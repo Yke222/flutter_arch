@@ -1,4 +1,4 @@
-# mvvm
+# new arch
 
 A new Flutter project.
 
