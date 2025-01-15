@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:counter_with_clean_architecture/entities/counter.dart';
 import 'package:counter_with_clean_architecture/use_cases/increment_counter.dart';
 
-/// Interface Adapters Layer (Presenter)
 class CounterPresenter {
   CounterPresenter(this.incrementCounter) {
     incrementCounter.counterStream.listen(_updateCounter);

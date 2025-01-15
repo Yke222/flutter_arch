@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:counter_with_clean_architecture/entities/counter.dart';
 import 'package:counter_with_clean_architecture/use_cases/counter_gateway.dart';
 
-/// Interface Adapters Layer (Fake Gateway Implementation).
 class FakeCounterGateway implements CounterGateway {
   FakeCounterGateway() {
     _controller.add(_counter);

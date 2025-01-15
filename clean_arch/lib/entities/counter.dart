@@ -1,4 +1,3 @@
-/// Entities Layer
 class Counter {
   const Counter(this.value);
 

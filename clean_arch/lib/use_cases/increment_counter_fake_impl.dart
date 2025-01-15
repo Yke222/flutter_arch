@@ -4,7 +4,6 @@ import 'package:counter_with_clean_architecture/entities/counter.dart';
 import 'package:counter_with_clean_architecture/use_cases/counter_gateway.dart';
 import 'package:counter_with_clean_architecture/use_cases/increment_counter.dart';
 
-/// UseCases Layer
 class IncrementCounterFakeImpl implements IncrementCounter {
   IncrementCounterFakeImpl(this.gateway) {
     _init();

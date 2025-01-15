@@ -2,7 +2,6 @@ import 'package:counter_with_clean_architecture/entities/counter.dart';
 import 'package:counter_with_clean_architecture/interface_adapters/counter_presenter.dart';
 import 'package:flutter/material.dart';
 
-/// Interface Adapters Layer (UI)
 class MyHomePage extends StatefulWidget {
   const MyHomePage({
     required this.title,
