@@ -5,7 +5,7 @@ class CounterViewmodel extends ChangeNotifier {
   CounterModel model = const CounterModel(0);
 
   void incrementCounter() {
-    model = model.increase();
+    model = CounterModel(model.counter + 1);
     notifyListeners();
   }
 }
